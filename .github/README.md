@@ -1,44 +1,117 @@
-# Olá Mundo!
+# 👋 Olá, Mundo!
 
-## AngularProjetoInicialNet8.0.100-preview.1.23115.2
+## 🚀 AngularProjetoInicialNet8
 
-Bem-vindo ao seu novo aplicativo de página única, desenvolvido com:
+Este projeto demonstra uma aplicação **SPA (Single Page Application)** criada com **ASP.NET Core 8 (preview)** e **Angular 8**, integrando o poder do backend .NET com a interatividade do frontend Angular.
 
-Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 8.0.0.
+---
 
-     ASP.NET Core e C# para código do lado do servidor de plataforma cruzada
-     Angular e TypeScript para código do lado do cliente
-     Bootstrap para layout e estilo
+## 🧰 Tecnologias Utilizadas
 
-## Servidor de desenvolvimento
+* ⚙️ **ASP.NET Core 8 (preview)** – Backend em C# moderno e cross-platform
+* 🌐 **Angular 8.0.0** – Framework para front-end SPA
+* 💅 **Bootstrap** – Estilização responsiva
+* 📦 **TypeScript** – Superset tipado do JavaScript
+* 🧪 **Karma & Protractor** – Ferramentas de testes automatizados
+* 🛠️ **Angular CLI** – Geração, build e scaffolding Angular
 
-Execute `cd ClientApp e ng serve` para um servidor de desenvolvimento. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+---
 
-Para ajudar você a começar, também configuramos:
+## 💻 Executando o Servidor de Desenvolvimento
 
-     Navegação do lado do cliente. Por exemplo, clique em Contador e depois em Voltar para voltar aqui.
-     Integração CLI angular. No modo de desenvolvimento, não há necessidade de executar ng serve. Ele é executado em segundo plano automaticamente, portanto, seus recursos do lado do cliente são criados dinamicamente sob demanda e a página é atualizada quando você modifica qualquer arquivo.
-     Construções de produção eficientes. No modo de produção, os recursos de tempo de desenvolvimento são desativados e sua configuração de publicação dotnet invoca automaticamente ng build para produzir arquivos JavaScript minificados e compilados antecipadamente.
+### 🔹 Instruções
 
-O subdiretório ClientApp é um aplicativo Angular CLI padrão. Se você abrir um prompt de comando nesse diretório, poderá executar qualquer comando ng (por exemplo, ng test) ou usar o npm para instalar pacotes extras nele.
+1. Acesse o diretório do Angular:
 
+```bash
+cd ClientApp
+ng serve
+```
 
-## Andaime de código
+2. Navegue até:
+   [http://localhost:4200](http://localhost:4200)
 
-Execute `ng generate component-name` para gerar um novo componente. Você também pode usar `ng generate directiva|pipe|service|class|guard|interface|enum|module`.
+> O navegador recarrega automaticamente ao salvar arquivos-fonte.
 
-## Construir
+---
 
-Execute `ng build` para compilar o projeto. Os artefatos de compilação serão armazenados no diretório `dist/`. Use o sinalizador `--prod` para uma compilação de produção.
+## 🧱 O que já está configurado
 
-## Executando testes de unidade
+* ✅ Navegação com Angular Router (SPA)
+* ✅ Integração automática com Angular CLI no modo `dotnet run`
+* ✅ Build de produção via `ng build` incluído no `dotnet publish`
+* ✅ Atualização automática dos scripts ao alterar arquivos de front-end
 
-Execute `ng test` para executar os testes de unidade via [Karma](https://karma-runner.github.io).
+---
 
-## Executando testes de ponta a ponta
+## 🧑‍💻 Andaimes de Código
 
-Execute `ng e2e` para executar os testes de ponta a ponta via [Protractor](http://www.protractortest.org/).
+Use os comandos abaixo para criar novos artefatos Angular:
 
-## Mais ajuda
+```bash
+ng generate component nome-componente
+ng generate service nome-servico
+ng generate class|interface|enum|pipe|guard
+```
 
-Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira o [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+---
+
+## 🛠️ Build de Produção
+
+```bash
+ng build              # build padrão
+ng build --prod       # build otimizado
+```
+
+Os arquivos resultantes são armazenados na pasta `dist/`.
+
+---
+
+## ✅ Executando Testes
+
+### 🔸 Testes de Unidade
+
+```bash
+ng test
+```
+
+Executado via [Karma](https://karma-runner.github.io).
+
+### 🔸 Testes de Ponta a Ponta (E2E)
+
+```bash
+ng e2e
+```
+
+Executado via [Protractor](http://www.protractortest.org/).
+
+---
+
+## 📚 Recursos Úteis
+
+* [Angular CLI Docs](https://angular.io/cli)
+* [ASP.NET Core Docs](https://learn.microsoft.com/aspnet/core)
+* [Bootstrap Docs](https://getbootstrap.com/)
+* [TypeScript Docs](https://www.typescriptlang.org/docs/)
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são muito bem-vindas!
+Você pode abrir issues, enviar pull requests ou apenas compartilhar com a comunidade!
+
+---
+
+## 📬 Contato
+
+* ✉️ **[daniloopro@gmail.com](mailto:daniloopro@gmail.com)**
+* 💼 [LinkedIn – Danilo O. Pinheiro](https://www.linkedin.com/in/daniloopinheiro)
+* 🌐 [dopme.io](https://dopme.io)
+* 🏢 [DevsFree](mailto:devsfree@devsfree.com.br)
+
+---
+
+<p align="center">
+  Feito com ❤️ por <strong>Danilo O. Pinheiro</strong>
+</p>
