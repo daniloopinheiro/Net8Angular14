@@ -1,4 +1,4 @@
-#🚀 Angular14 & .Net8
+# 🚀 Angular14 & .Net8
 
 Este projeto demonstra uma aplicação **SPA (Single Page Application)** criada com **ASP.NET Core 8 (preview)** e **Angular 8**, integrando o poder do backend .NET com a interatividade do frontend Angular.
 
